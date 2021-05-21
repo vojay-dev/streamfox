@@ -1,0 +1,11 @@
+Model Information:
+* title:	Arwing - StarFox Assault
+* source:	https://sketchfab.com/3d-models/arwing-starfox-assault-5da3132e932842579e5785cc9ddbcf90
+* author:	the_regressor (https://sketchfab.com/the-regressor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Arwing - StarFox Assault" (https://sketchfab.com/3d-models/arwing-starfox-assault-5da3132e932842579e5785cc9ddbcf90) by the_regressor (https://sketchfab.com/the-regressor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
