@@ -25,8 +25,8 @@ func _physics_process(delta):
 
 	velocity = move_and_slide(velocity)
 
-	transform.origin.x = clamp(transform.origin.x, -14, 14)
-	transform.origin.y = clamp(transform.origin.y, -8, 8)
+	transform.origin.x = clamp(transform.origin.x, -18, 18)
+	transform.origin.y = clamp(transform.origin.y, -10, 10)
 
 	cooldown -= delta
 	if Input.is_action_pressed("shoot") and cooldown <= 0:

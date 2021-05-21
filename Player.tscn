@@ -245,8 +245,8 @@ emission_on_uv2 = false
 
 [sub_resource type="CapsuleMesh" id=14]
 material = SubResource( 13 )
-radius = 0.03
-mid_height = 0.03
+radius = 0.02
+mid_height = 0.1
 
 [sub_resource type="CapsuleShape" id=15]
 radius = 1.59092
@@ -262,11 +262,15 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.358, 0.111, -0.509 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.35791, 0.110568, -0.50872 )
 
 [node name="CrosshairNear" type="Sprite3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -30.4447 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.54 )
 texture = ExtResource( 6 )
 
+[node name="CrosshairMid" type="Sprite3D" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0309029, -0.092041, -40.3316 )
+texture = ExtResource( 7 )
+
 [node name="CrosshairFar" type="Sprite3D" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -63.1188 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -83.9711 )
 texture = ExtResource( 7 )
 
 [node name="Model" type="Spatial" parent="."]
@@ -425,7 +429,8 @@ material/0 = null
 [node name="Particles" type="Particles" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.278905, 1.46234 )
 amount = 500
-lifetime = 0.53
+lifetime = 0.15
+speed_scale = 2.64
 process_material = SubResource( 12 )
 draw_pass_1 = SubResource( 14 )
 
